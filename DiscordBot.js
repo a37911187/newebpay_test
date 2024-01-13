@@ -2,10 +2,10 @@ const axios = require('axios');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'MTE5NDE2MTI1OTUzMzMwNzkwNA.Gw-n8Y.bpzY1AvOwgD3ylvJMPzreMxKJOckWfCAdg3eNU';
-const MerchantID = 'MS151243581';
-const HashKey = 'H8k8a9ybpOQWS5Fp0O3ihQ98uRblMVea';
-const HashIV = 'CJYYQGAXPRy4OeWP';
+const token = '機器人token';
+const MerchantID = '藍星商店代號';
+const HashKey = '藍星金流key';
+const HashIV = '藍星金流iv';
 const NewebPayURL = 'https://ccore.newebpay.com/MPG/mpg_gateway';
 const prefix = '!';
 
